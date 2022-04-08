@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="34.334" tests="8" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17+35"/>
+    <property name="sun.boot.library.path" value="C:\Users\prani\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\prani\Projects\PageObjectModelWithJavaGenerics"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\prani\Projects\PageObjectModelWithJavaGenerics"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17+35"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\prani\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\prani\Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9686866698569503979.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\prani\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/prani/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin/server;C:/Users/prani/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\prani\AppData\Local\Android\Sdk\platform-tools;C:\Users\prani\AppData\Local\Android\Sdk\tools;C:\Users\prani\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Users\prani\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\prani\AppData\Local\Programs\Python\Python310;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\allure-2.16.0\bin;C:\Users\prani\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\prani\AppData\Local\Programs\Python\Python310\;C:\Users\prani\AppData\Local\Microsoft\WindowsApps;C:\Users\prani\AppData\Local\Programs\Fiddler;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files (x86)\mitmproxy\bin;C:\Users\prani\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prani\AppData\Roaming\npm;C:\Users\prani\eclipse\java-2021-06\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\prani"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="prani"/>
+    <property name="java.class.path" value="C:\Users\prani\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\prani\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\prani\Projects\PageObjectModelWithJavaGenerics\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17+35"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.008"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.hubspot.tests.LoginPageTest" time="0.005"/>
+  <testcase name="homePageTitleTest" classname="com.qa.hubspot.tests.HomePageTest" time="2.619">
+    <failure message="expected [Reports dashboard] but found [HubSpot Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Reports dashboard] but found [HubSpot Login]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.hubspot.tests.HomePageTest.homePageTitleTest(HomePageTest.java:16)
+</failure>
+    <system-out>home page title is: HubSpot Login
+</system-out>
+    <system-err>1649443289456	Marionette	INFO	Stopped listening on port 52104
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://app.hubspot.com"
+</system-err>
+  </testcase>
+  <testcase name="homePageTitleTest" classname="com.qa.hubspot.tests.HomePageTest" time="6.374">
+    <failure message="expected [Reports dashboard] but found [HubSpot Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Reports dashboard] but found [HubSpot Login]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.hubspot.tests.HomePageTest.homePageTitleTest(HomePageTest.java:16)
+</failure>
+    <system-out>home page title is: HubSpot Login
+</system-out>
+    <system-err>StartStaringtin ChromeDriverg ChromeDriver 100.0.4896.60 (6a5 1d10861ce8de5fce00.0.4896.60 (22566a5d1084658061ce8de5fce22564658033b43cb7de33b43cb7de047-refs/branch047-refs/bran-hech-heads/4ads/896@{#874896@{#875}) on port5}) on po 1r938t 95919
+Only lo
+Onlycal con local conennections ctiare alloons wedare allowed.
+Pl.
+Please seasee https:/e see https/chrome://chromedridriver.chromiumver.chro.org/smium.org/secuecurity-considerations for rity-cosugnsigestions oden kratieeping ChromeDriver safeo.ns for suggestions on keeping ChromeDriver 
+safe.
+ChromeDriver wasC startedhromeDriver w successfully.
+as started successfully.
+Apr 09, 2022 12:11:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 09, 2022 12:11:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.hubspot.tests.LoginPageTest" time="6.203"/>
+  <testcase name="verifyHomePageHeaderTest" classname="com.qa.hubspot.tests.HomePageTest" time="6.522">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.private\-page__title&quot;}&#10;  (Session info: chrome=100.0.4896.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-KB7KK6RH&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\prani\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3a374dc572ec0949121098ba7bcadc2e&#10;*** Element info: {Using=class name, value=private-page__title}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".private\-page__title"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KB7KK6RH', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\prani\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a374dc572ec0949121098ba7bcadc2e
+*** Element info: {Using=class name, value=private-page__title}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.qa.hubspot.pages.BasePage.doGetText(BasePage.java:23)
+	at com.qa.hubspot.pages.HomePage.getHomePageHeader(HomePage.java:22)
+	at com.qa.hubspot.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:22)
+</failure>
+  </testcase>
+  <testcase name="verifyHomePageHeaderTest" classname="com.qa.hubspot.tests.HomePageTest" time="5.747">
+    <failure message="Unable to locate element: .private\-page__title&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-KB7KK6RH&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15596, moz:profile: C:\Users\prani\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 757edb20-da1f-4556-9c2b-546274adc07c&#10;*** Element info: {Using=class name, value=private-page__title}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: .private\-page__title
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-KB7KK6RH', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15596, moz:profile: C:\Users\prani\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 757edb20-da1f-4556-9c2b-546274adc07c
+*** Element info: {Using=class name, value=private-page__title}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.qa.hubspot.pages.BasePage.doGetText(BasePage.java:23)
+	at com.qa.hubspot.pages.HomePage.getHomePageHeader(HomePage.java:22)
+	at com.qa.hubspot.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:22)
+</failure>
+    <system-err><![CDATA[console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://app.hubspot.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://app.hubspot.com"
+1649443309240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.hubspot.tests.LoginPageTest" time="6.856"/>
+</testsuite>

@@ -1,0 +1,7 @@
+com\qa\hubspot\pages\LoginPage.class
+com\qa\hubspot\tests\BaseTest.class
+com\qa\hubspot\pages\BasePage.class
+com\qa\hubspot\pages\HomePage.class
+com\qa\hubspot\pages\Page.class
+com\qa\hubspot\tests\LoginPageTest.class
+com\qa\hubspot\tests\HomePageTest.class
